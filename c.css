@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.start {
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: rgb(0, 0, 0);
+    margin-top: 5vh;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease; /* Adding a transition for a smooth effect */
+}
+
+.start:hover {
+    box-shadow: rgba(44, 44, 223, 0.4) 0px 8px 16px -2px, rgba(230, 96, 96, 0.5) 0px 4px 8px -3px;
+    /* Adjust the box-shadow values for the hover effect as desired */
+}
+
+#timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: aliceblue;
+}
+
+#timer div {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(204, 36, 36, 0.8); /* Semi-transparent background for better readability */
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    #timer div {
+        flex-basis: 100%;
+    }
+}
+
+.d{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.h{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.m{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.s{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.s{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.s1{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.s2{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.s3{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.s4 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.date {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5vh; /* Adjust as needed */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 10px;
+    margin-left: 600px;
+    margin-right: 600px;
+    color: aliceblue;
+}
+
+/* Example media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .date {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 3vh;
+    }
+}
+
+.cc {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10vh; /* Using viewport height for margin-top, adjust as needed */
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(67, 211, 211);
+}
+
+/* Example media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .cc {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5vh;
+    }
+}
+.time1{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+    border-radius: 10px;
+}
